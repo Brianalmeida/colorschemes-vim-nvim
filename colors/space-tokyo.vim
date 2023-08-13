@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.6'
+" Version: '0.1.7'
 
 " Color definitions
 
@@ -137,7 +137,7 @@ call s:hi("Title", "NONE", s:blue, "NONE", "bold", "bold")
 call s:hi("VisualNOS", "NONE", "NONE", s:bg1, "bold", "bold")
 call s:hi("WarningMsg", "NONE", s:yellow, "NONE", "NONE", "NONE")
 call s:hi("WildMenu", "NONE", "NONE", s:light_grey, "NONE", "NONE")
-call s:hi("Comment", "NONE", s:bg2, "NONE", "NONE", "NONE")
+call s:hi("Comment", "NONE", s:bg1, "NONE", "NONE", "NONE")
 call s:hi("Constant", "NONE", s:pink, "NONE", "NONE", "NONE")
 call s:hi("Identifier", "NONE", s:light_coral, "NONE", "NONE", "NONE")
 call s:hi("Statement", "NONE", s:purple, "NONE", "NONE", "NONE")
