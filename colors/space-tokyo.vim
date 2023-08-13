@@ -1,5 +1,5 @@
 " Author: Brian Almeida
-" Version: 2.1
+" Version: 2.2
 " URL: https://github.com/Brianalmeida/space-tokyo
 "
 " Note: Inspired by spacemacs-dark theme and Tokyo-night theme
@@ -95,7 +95,7 @@ endfunction
 
 let s:fg = 249
 let s:bg = get(g:, 'space_tokyo_dark_background', 235)
-let s:bg = max([s:bg, 233])
+let s:bg = max([s:bg, 235])
 
 let s:bias = s:bg - 235
 let s:bg0 = s:bg - 1
@@ -436,4 +436,6 @@ call s:hi('QuickScopeSecondary' , 81  , '' , 'underline' , 'underline')
 delf s:hi
 unlet s:color256 s:colors s:bg
 
+" Must be at the end, because of ctermbg=234 bug.
+" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
