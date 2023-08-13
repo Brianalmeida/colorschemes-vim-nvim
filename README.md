@@ -1,2 +1,2 @@
 # colorschemes-vim-nvim
-:fox: Designed for vim/nvim
+:earth_americas: Designed for vim/nvim
