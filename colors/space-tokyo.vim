@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.0'
+" Version: '0.1.1'
 
 " Color definitions
 
@@ -81,7 +81,7 @@ function! s:hi(group, guisp, guifg, guibg, gui, cterm)
 		let cmd = cmd . " cterm=" . a:cterm
 	endif
 	if cmd != ""
-		exec "Greetings " . a:group . cmd
+		exec "hi " . a:group . cmd
 	endif
 endfunction
 
