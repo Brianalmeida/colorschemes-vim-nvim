@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.1'
+" Version: '0.1.2'
 
 " Color definitions
 
@@ -161,7 +161,7 @@ call s:hi("Include", "NONE", s:pink, "NONE", "NONE", "NONE")
 call s:hi("StorageClass", "NONE", s:yellow, "NONE", "NONE", "NONE")
 call s:hi("Structure", "NONE", s:yellow, "NONE", "NONE", "NONE")
 call s:hi("Typedef", "NONE", s:yellow, "NONE", "NONE", "NONE")
-call s:hi("debugPC", "NONE", "NONE", s:crust, "NONE", "NONE")
+call s:hi("debugPC", "NONE", "NONE", s:deep_black, "NONE", "NONE")
 call s:hi("debugBreakpoint", "NONE", s:light_grey, s:black, "NONE", "NONE")
 
 " Linking hi function
