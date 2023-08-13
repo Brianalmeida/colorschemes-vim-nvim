@@ -1,5 +1,5 @@
 " Author: Brian Almeida
-" Version: 2.0
+" Version: 2.1
 " URL: https://github.com/Brianalmeida/space-tokyo
 "
 " Note: Inspired by spacemacs-dark theme and Tokyo-night theme
@@ -59,7 +59,7 @@ let s:color256 = {
       \ 220 : '#ffd700', 221 : '#ffd75f', 222 : '#ffd787', 223 : '#ffd7af', 224 : '#ffd7d7', 225 : '#ffd7ff',
       \ 226 : '#ffff00', 227 : '#ffff5f', 228 : '#ffff87', 229 : '#ffffaf', 230 : '#ffffd7', 231 : '#ffffff',
       \
-      \ 232 : '#080808', 233 : '#121212', 234 : '#1c1c1c', 235 : '#262626', 236 : '#303030', 237 : '#3a3a3a',
+      \ 232 : '#080808', 233 : '#121212', 234 : '#1c1c1c', 235 : '#1f2335', 236 : '#303030', 237 : '#3a3a3a',
       \ 238 : '#444444', 239 : '#4e4e4e', 240 : '#585858', 241 : '#606060', 242 : '#666666', 243 : '#767676',
       \ 244 : '#808080', 245 : '#8a8a8a', 246 : '#949494', 247 : '#9e9e9e', 248 : '#a8a8a8', 249 : '#b2b2b2',
       \ 250 : '#bcbcbc', 251 : '#c6c6c6', 252 : '#d0d0d0', 253 : '#dadada', 254 : '#e4e4e4', 255 : '#eeeeee',
@@ -436,6 +436,4 @@ call s:hi('QuickScopeSecondary' , 81  , '' , 'underline' , 'underline')
 delf s:hi
 unlet s:color256 s:colors s:bg
 
-" Must be at the end, because of ctermbg=234 bug.
-" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
