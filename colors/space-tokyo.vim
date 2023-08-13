@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.2'
+" Version: '0.1.3'
 
 " Color definitions
 
@@ -114,7 +114,7 @@ call s:hi("MatchParen", "NONE", s:pink, "NONE", "bold", "bold")
 call s:hi("ModeMsg", "NONE", s:text, "NONE", "bold", "bold")
 call s:hi("MoreMsg", "NONE", s:blue, "NONE", "NONE", "NONE")
 call s:hi("NonText", "NONE", s:light_grey, "NONE", "NONE", "NONE")
-call s:hi("Pmenu", "NONE", s:overlay2, s:bg1, "NONE", "NONE")
+call s:hi("Pmenu", "NONE", s:light_grey, s:bg1, "NONE", "NONE")
 call s:hi("PmenuSel", "NONE", s:text, s:bg1, "bold", "bold")
 call s:hi("PmenuSbar", "NONE", "NONE", s:bg1, "NONE", "NONE")
 call s:hi("PmenuThumb", "NONE", "NONE", s:light_grey, "NONE", "NONE")
