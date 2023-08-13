@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.7'
+" Version: '0.1.8'
 
 " Color definitions
 
@@ -99,7 +99,7 @@ call s:hi("CursorIM", "NONE", s:black, s:text, "NONE", "NONE")
 call s:hi("CursorColumn", "NONE", "NONE", s:black, "NONE", "NONE")
 call s:hi("CursorLine", "NONE", "NONE", s:bg1, "NONE", "NONE")
 call s:hi("Directory", "NONE", s:blue, "NONE", "NONE", "NONE")
-call s:hi("DiffAdd", "NONE", s:black, s:green, "NONE", "NONE")
+call s:hi("DiffAdd", "NONE", s:black, s:light_green, "NONE", "NONE")
 call s:hi("DiffChange", "NONE", s:black, s:yellow, "NONE", "NONE")
 call s:hi("DiffDelete", "NONE", s:black, s:coral, "NONE", "NONE")
 call s:hi("DiffText", "NONE", s:black, s:blue, "NONE", "NONE")
@@ -148,7 +148,7 @@ call s:hi("Underlined", "NONE", s:text, s:black, "underline", "underline")
 call s:hi("Error", "NONE", s:coral, "NONE", "NONE", "NONE")
 call s:hi("Todo", "NONE", s:black, s:yellow, "bold", "bold")
 
-call s:hi("String", "NONE", s:green, "NONE", "NONE", "NONE")
+call s:hi("String", "NONE", s:bg1, "NONE", "NONE", "NONE")
 call s:hi("Character", "NONE", s:teal, "NONE", "NONE", "NONE")
 call s:hi("Number", "NONE", s:pink, "NONE", "NONE", "NONE")
 call s:hi("Boolean", "NONE", s:pink, "NONE", "NONE", "NONE")
