@@ -1,5 +1,5 @@
 " Author: Brian Almeida
-" Version: 2.2
+" Version: 2.3
 " URL: https://github.com/Brianalmeida/space-tokyo
 "
 " Note: Inspired by spacemacs-dark theme and Tokyo-night theme
@@ -95,7 +95,9 @@ endfunction
 
 let s:fg = 249
 let s:bg = get(g:, 'space_tokyo_dark_background', 235)
-let s:bg = max([s:bg, 235])
+let s:bg = max([s:bg, 233])
+let g:space_tokyo_dark_background = 235
+color space_tokyo_dark
 
 let s:bias = s:bg - 235
 let s:bg0 = s:bg - 1
