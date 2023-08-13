@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.3'
+" Version: '0.1.4'
 
 " Color definitions
 
@@ -31,9 +31,7 @@
 set background=dark
 hi clear
 
-if exsits('syntax on')
-	syntax reset
-endif
+syntax reset
 
 let g:colors_name='space_tokyo'
 set t_Co=256
