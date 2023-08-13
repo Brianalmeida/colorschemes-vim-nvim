@@ -1,28 +1,31 @@
 " Scheme created by Brian Almeida
+" Name: Space-Tokyo
+" Version: '0.1.0'
 
 " Color definitions
 
 "   ---|-----------------------|--------------
 "   ## | ORIGINAL THEME SWATCH | ACTUAL COLOUR
 " " ---|-----------------------|--------------
-" " 00 | bg1                   | dark grey
-" " 01 | bg2                   | darker grey
-" " 02 | act2                  | dark purple
-" " 03 | n/a                   | medium cool grey
-" " 04 | base                  | light grey
-" " 05 | base                  | light grey
-" " 06 | clbk_ln               | purple grey
-" " 07 | clbk_ln_bg            | dark purple grey
-" " 08 | var                   | cyan
-" " 09 | const                 | med_purple
+" " 00 | bg1                   | dark_grey
+" " 01 | bg2                   | darker_grey
+" " 02 | act2                  | dark_purple
+" " 03 | n/a                   | med_grey
+" " 04 | base                  | light_grey
+" " 05 | clbk_ln               | purple
+" " 06 | clbk_ln_bg            | dark_purple_grey
+" " 07 | var                   | light_blue
+" " 08 | const                 | med_purple
 " " 0A | comment               | teal
-" " 0B | str                   | white
-" " 0C | type                  | coral
-" " 0D | func                  | pink
-" " 0E | keyword               | blue
-" " 0F | act2                  | dark purple
+" " 0B | tbd                   | light_green
+" " 0C | str                   | white
+" " 0D | type                  | coral
+" " 0E | func                  | pink
+" " 0F | keyword               | blue
+" " 0G | act2                  | dark_purple
 " " ---|-----------------------|--------------
 
+" Configuration
 set background=dark
 hi clear
 
@@ -32,6 +35,8 @@ endif
 
 set t_Co=256
 
+
+" Color palette
 let s:dark_grey = "#202026"
 let s:darker_grey = "#222026"
 let s:dark_purple = "#5d4d7a"
