@@ -1,6 +1,6 @@
 " Scheme created by Brian Almeida
 " Name: Space_Tokyo
-" Version: '0.1.4'
+" Version: '0.1.5'
 
 " Color definitions
 
@@ -31,10 +31,14 @@
 set background=dark
 hi clear
 
-syntax reset
+
+if exists('syntax on')
+	syntax reset
+endif
+
+set t_Co=256
 
 let g:colors_name='space_tokyo'
-set t_Co=256
 
 
 " Color palette
