@@ -6,4 +6,6 @@
 
 # Installation
 ## For VimPlug users, you can simply add this to your .vimrc file:
-> Plug 'Brianalmeida/space-tokyo'
+```
+Plug 'Brianalmeida/space-tokyo'
+```
