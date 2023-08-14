@@ -96,8 +96,6 @@ endfunction
 let s:fg = 249
 let s:bg = get(g:, 'space_tokyo_dark_background', 235)
 let s:bg = max([s:bg, 233])
-let g:space_tokyo_dark_background = 0
-color space_tokyo_dark
 
 let s:bias = s:bg - 235
 let s:bg0 = s:bg - 1
